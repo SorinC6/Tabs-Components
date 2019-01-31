@@ -51,6 +51,8 @@ class TabItem {
     items.forEach(item=>item.classList.remove('tabs-item-selected'))
     // Add a class named "tabs-item-selected" to this element
     this.element.classList.add('tabs-item-selected');   
+    TweenMax.from(this.element,2,{opacity:0})
+    TweenMax.from(this.element,2,{scale:0,ease: Bounce.easeOut})
   }
 }
 
