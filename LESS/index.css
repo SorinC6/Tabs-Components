@@ -3,15 +3,6 @@
   margin: 0;
   padding: 0;
 }
-@keyframes slideInRight {
-  from {
-    transform: translate3d(-100%, 0, 0);
-    visibility: visible;
-  }
-  to {
-    transform: translate3d(0, 0, 0);
-  }
-}
 .dropdown {
   z-index: 2;
   position: absolute;
@@ -37,8 +28,6 @@
   align-items: center;
   margin-top: 10px;
   border: 2.5px solid #931d25;
-  animation-name: slideInRight;
-  animation-duration: 0.8s;
 }
 .dropdown .dropdown-link {
   width: 100%;
